@@ -1,0 +1,50 @@
+1. 交易如何快速上链，如何集成多个dex
+ -- jup对于新币好像交易不了，发现不了交易对
+2. 一些公用的节点，对于一些api是禁用的
+https://stackoverflow.com/questions/71141686/solana-getparsedprogramaccounts-410-gone
+导致获取raydium新交易对信息的时候，会出现问题，可能需要一些api了
+3. 推特监控怎么快一些，多个写成一起跑？
+4. 价格如何统一获取，现在有三个，但是有可能获取不到价格
+这个价格就获取不到：https://api.dexscreener.com/latest/dex/pairs/solana/HctjAgcQTdz5pRBGMsqGGMhZTSFGZfuH4VnvxFjkTFxw
+
+
+# 5.28：
+1.钱包管理
+2.解决买入代币失败还有send telegram失败的问题
+
+
+
+# 5.29:
+1.解决买入代币失败还有send telegram失败的问题
+2.解决telegram发消息 会timeout的问题
+
+
+#6.3:
+1.解决telegram bot的用户状态机制 √
+2.推特score strage
+
+
+#6.4
+1.推特score strage
+喊单人关注，帖子浏览量、共同关注（分数比较高）
+
+#6.5
+1.交易所比较简单的量化：每15分钟监控，量能有没有翻倍的，翻倍的市值比较高的就买入1000，然后得对比前1个月的平均15分钟量能
+
+#6.6
+1.使用100个推特小号进行监控，看下有没有问题
+2.晚上跑下土狗打新、今天继续测试下量能测试工具
+
+VPN的几个思路：
+1.共享的ip：比较脏、容易被封禁
+2.独享ip：比较贵
+3.搭建vps
+4.搭建节点集群
+
+#6.13
+sanctum
+1.新开的pump如何狙击到呢
+
+
+#6.15
+1.将打分路径打印出来，这样就能知道哪里获取的分数有没有问题

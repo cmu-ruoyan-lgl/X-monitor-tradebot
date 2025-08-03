@@ -1,0 +1,7 @@
+twikit
+requests
+mongoengine
+colorama
+InquirerPy
+jupiter-python-sdk
+async_retrying
